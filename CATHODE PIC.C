@@ -1,7 +1,7 @@
 #include<pic.h>
 void main(){
 unsigned char a;
-unsigned char seg[9]={0XC0,0XF9,0XA4,0XB0,0X99,0X82,0XF8,0X80,0X90};
+unsigned char seg[9]={0X3F,0X06,0X5B,0X4F,0X66,0X60,0X07,0X7F,0X67};
 unsigned int i;
 TRISB = 0x00;
             PORTB = 0x00;
